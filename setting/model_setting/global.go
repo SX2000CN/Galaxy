@@ -44,6 +44,13 @@ var defaultOpenaiSettings = GlobalSettings{
 	ThinkingModelBlacklist: []string{
 		"moonshotai/kimi-k2-thinking",
 		"kimi-k2-thinking",
+		// Claude thinking 模型 - 保留后缀传递给上游
+		"claude-opus-4-5-thinking",
+		"claude-sonnet-4-5-thinking",
+		"claude-opus-4-1-thinking",
+		"claude-opus-4-thinking",
+		"claude-sonnet-4-thinking",
+		"claude-3-7-sonnet-thinking",
 	},
 	ChatCompletionsToResponsesPolicy: ChatCompletionsToResponsesPolicy{
 		Enabled:     false,
